@@ -1,0 +1,50 @@
+body{
+    background-color: aqua;
+}
+
+
+h1{
+color: red;
+}
+#box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    text-align: center;
+    font-size: 28px;
+}
+input{
+    height: 34px;
+    width: 42%;
+    margin: 7px;
+    border: 0;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+button{
+    height: 40px;
+    width: 90px;
+    background-color: rgb(244, 126, 23);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+}
+button:hover{
+    background-color: green;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+#email,#password{
+    width: 100%;
+}
+
